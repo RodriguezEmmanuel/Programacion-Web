@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Kodchasan:wght@600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+body{
+    background-color: #69B1F9;
+    padding: 20px;
+}
+
+
+.container-all{
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 50PX;
+    display: flex;
+    background-color: #021019;
+    border-radius: 20px;
+}
+
+.ctn-form{
+    width: 95%;
+    padding: 40px;
+    background: #021019;
+    border-radius: 20px;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+}
+
+.title{
+    font-family: Epilogue;
+    color:#FFFFFF;
+    text-align: center;
+    font-weight: 400;
+    margin: 16px;
+    line-height: normal;
+}
+
+label{
+    color: #EEE6E3;
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 95%;
+    height: 30px;
+    margin: 10px auto;
+    background: #021019;
+    color:#EEE6E3;
+    font-size: 16px;
+    opacity: 0.8;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 2px solid #FAEDED;   
+}
+
+input[type="submit"]{
+    font-family: Lato;
+    font-size: 20px;
+    margin:10px auto;
+    width: 95%;
+    height: 35px;
+    color:#EFE5E2;
+    background: #1279D6;
+    opacity: 0.8;
+    outline: 0px;
+    border: 0px;
+    border-radius: 5px ;
+    cursor: pointer;
+    text-align: center;
+    transition: filter 0.3s ease; /* Agregado: transición para el efecto de brillo */
+}
+
+
+/* Agrega el efecto de brillo al pasar el mouse sobre el botón */
+input[type="submit"]:hover {
+    filter: brightness(1.5);
+}
+
+
+.text-footer{
+    display: block;     
+    margin: 5px;
+    text-align: center;
+    font-weight: 300;
+    color:#EFE5E2;
+}
+
+.text-footer a{
+    font-weight: 500;
+    color:  #22DDFC;
+    text-decoration: none; /* Evita el subrayado predeterminado */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Animación suave */
+}
+
+.text-footer a:hover {
+    color:  #22DDFC; /* Cambia el color al pasar el ratón sobre el enlace */
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón sobre él */
+}
+
+/*Img de fondo de lado derecho*/
+.ctn-text{
+    width: 100%;
+    background-image: url(../img/FND.png);
+    background-position: center;
+    background-size: 100% 100%;;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgba(46, 205, 209, 0);;
+    border: #021019 solid 20px;
+}
+
